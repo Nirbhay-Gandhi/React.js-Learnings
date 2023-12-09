@@ -13,12 +13,14 @@ Some imp points: <br/>
 - Call react hooks from within React functional components and not just any regulat js function<br/>
 
 <h4>1. Use State</h4> <br/>
+
 <b>Return type: </b> array of 2 values: <br/> 
 (i) current value of the state value, <br/>
 (ii)  method capable to update the value state property((argument to set current_value to that argument)) <br/>
-useState(\<initial/default value of the state property>) <br/>
+useState(initial/default value of the state property) <br/>
+
 -> Updating state property through hooks will re-render and update the state property at all instances, updating it manually won't re-render and update all instances.  <br/>
--> The very first time  the component renders, a state variable is created and initialized with the default value. The default value is never used in re-renders. On call of change menthod, it will cause the component to rerender, after re-render the property will contain the updated value
+-> The very first time  the component renders, a state variable is created and initialized with the default value. The default value is never used in re-renders. On call of change menthod, it will cause the component to rerender, after re-render the property will contain the updated value.
 
 
 

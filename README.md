@@ -4,7 +4,7 @@
 <a href="https://www.youtube.com/watch?v=O6P86uwfdR0&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h"> 1. Web Dev Simplified </a> <br/>
 <a href="https://www.youtube.com/watch?v=cF2lQ_gZeA8&list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A"> 2. Codevaluation </a>
 
-<br/>
+<br/> <br/>
 
 
 Some imp points: <br/>
@@ -12,8 +12,11 @@ Some imp points: <br/>
 - should be execute in the same order. You canno't put hooks inside a nested functions, if statements, loops. It should be at the top level of the function called exactly in the same order. <br/>
 - Call react hooks from within React functional components and not just any regulat js function<br/>
 
-<h3>1. Use State</h3> <br/>
-{array of 2 values [(i) current value of the state value, (ii)  method capable to update the value state property((argument to set current_value to that argument))]} useState(<initial/default value of the state property>) <br/>
+<h4>1. Use State</h4> <br/>
+<b>Return type: </b> array of 2 values: <br/> 
+(i) current value of the state value, <br/>
+(ii)  method capable to update the value state property((argument to set current_value to that argument)) <br/>
+useState(<initial/default value of the state property>) <br/>
 -> Updating state property through hooks will re-render and update the state property at all instances, updating it manually won't re-render and update all instances.  <br/>
 -> The very first time  the component renders, a state variable is created and initialized with the default value. The default value is never used in re-renders. On call of change menthod, it will cause the component to rerender, after re-render the property will contain the updated value
 

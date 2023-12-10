@@ -1,4 +1,4 @@
-# React_API
+# React.js Learnings
 
 <h3>Hooks</h3> <br/>
 <a href="https://www.youtube.com/watch?v=O6P86uwfdR0&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h"> 1. Web Dev Simplified </a> <br/>

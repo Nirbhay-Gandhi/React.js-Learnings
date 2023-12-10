@@ -10,7 +10,7 @@
 Some imp points: <br/>
 - hooks not for class components, only to be used for functional components <br/>
 - should be execute in the same order. You canno't put hooks inside a nested functions, if statements, loops. It should be at the top level of the function called exactly in the same order. <br/>
-- Call react hooks from within React functional components and not just any regulat js function<br/>
+- Call react hooks from within React functional components and not just any regular js function<br/>
 
 <h4>1. Use State</h4> <br/>
 
